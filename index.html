@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="container">
+        <input type="checkbox" id="signup_toggle">
+    <form class="form" action="thankyou.html" method="get">
+        <div class="front-form">
+            <div class="form_details">Login</div>
+            <input type="text" placeholder="Username" class="input" required>
+            <input type="text" placeholder="Password" class="input" required>
+            <button class="btn">Login</button> 
+            <span class="switch">Don't have an account?
+                <label class="signup_tog"  for="signup_toggle" >
+                    Sign Up
+                </label>
+            </span>
+        </div>    
+        <div class="back-form">
+            <div class="form_details">Sign Up</div> 
+            <input type="text" class="input" placeholder="Firstname">
+            <input type="text" class="input" placeholder="Username">
+            <input type="text" class="input" placeholder="Password">
+            <input type="text" class="input" placeholder="Confirm Password">
+            <button class="btn">Sign Up</button>
+            <span class="switch">Already have an account?
+                <label class="signup_tog" for="signup_toggle">
+                   Sign In
+                </label>
+            </span>
+        </div>    
+    </form>
+    </div>    
+</body>
+</html>
